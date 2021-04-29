@@ -1,0 +1,159 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.header__ttl1 {
+  font-size: 25px;
+  width: 100px;
+}
+
+.tech__ttl {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+  list-style: none;
+  
+}
+
+.header-nav-item {
+  margin: 0 30px 0 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  display: none;
+}
+
+.drawer {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: -100%;
+  background: #eee;
+  transition: .7s;
+  text-align: center;
+}
+
+.drawer__name {
+  text-decoration: none;
+}
+
+.drawer__list {
+  padding-top: 80px;
+}
+
+.drawer__item {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.mv {
+  background: url(../img/mv.png) center/cover;
+  height: 280px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -100px;
+}
+
+.company__list {
+  width: 1000px;
+  border-bottom: 1px solid black;
+  margin: 180px auto;
+  margin-bottom: 0;
+  border-collapse: collapse;
+}
+
+.company__ttl {
+  border-top: 1px solid black;
+  padding: 20px 0;
+
+}
+
+.company__text {
+  border-top: 1px solid black;
+  padding: 20px 0px;
+}
+
+.contact {
+  background-color: #ebebeb;
+  padding: 60px 0;
+  margin-top: 100px;
+}
+
+.contact__ttl {
+  text-align: center;
+}
+
+.contact__text {
+  text-align: center;
+}
+
+.contact__btn {
+  display: block;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #8b0000;
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 20px 0;
+  color: white;
+  background-color: black;
+
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fotter__copyright {
+  margin-left: 150px;
+  margin-top: -7px;
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  list-style: none;
+  margin: -10px 100px 0 0;
+}
+
+.footer__item {
+  margin: 2px ;
+}
+
+.footer__item::after {
+  content: "|";
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer__item:last-child::after {
+  display: none;
+}
